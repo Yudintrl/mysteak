@@ -7,7 +7,6 @@ import Portofolio from './_components/Portofolio'
 import Blog from './_components/Blog'
 import Contact from './_components/Contact'
 import Footer from './_components/Footer'
-import Login from './pages/Login'
 import Link from 'next/link'
 import Image from 'next/image' // Import Image dari next/image
 import Logo from './_assets/image.png';
@@ -67,7 +66,7 @@ function Page() {
                       <Link href='#' className='text-base text-slate-400 py-2 mx-8 flex group-hover:text-primary'>Contact</Link>
                     </li>
                     <li className='group'>
-                      <Link href='/login' className='text-base text-white py-2 mx-8 flex group-hover:text-black bg-primary p-6 rounded-full'>Login</Link>
+                      <Link href='/Login' className='text-base text-white py-2 mx-8 flex group-hover:text-black bg-primary p-6 rounded-full'>Login</Link>
                     </li>
                   </ul>
                 </nav>
